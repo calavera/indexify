@@ -19,7 +19,7 @@ env:
 jobs:
   lint_server:
     name: Lint Indexify Server
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04-arm
     steps:
       - name: Install protobuf package
         run: sudo apt update && sudo apt install -y protobuf-compiler
